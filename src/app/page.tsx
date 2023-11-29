@@ -1,16 +1,10 @@
-// 'use client'
-
-import Image from 'next/image'
-import Link from 'next/link'
-import Header from './header/header'
+import Header from "./components/header/page"
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Header/>
-      <h2 className="flex min-h-screen flex-col items-center justify-between p-24">
-        Home
-      </h2>
+      <h1>Home</h1>
     </main>
   )
 }
