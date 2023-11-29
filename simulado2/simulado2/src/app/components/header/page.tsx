@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 export default function Header() {
     return (
-    <main className='bg-slate-600'>
-         <ul className="flex justify-center p-4 px-500" >
+    <main className='bg-slate-600 rounded-3xl'>
+         <ul className="flex min-h-screen flex-col items-center justify-between p-24" >
             <li>
                 <Link href="/">Home</Link>
             </li>
